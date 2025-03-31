@@ -5,14 +5,15 @@
     
 }
 body{
-    height: 100%;
+    height: 100vh;
 }
 .first_body{
     background-color: #101218 !important;
+    
 }
 img{
     border-radius: 50%;
-    max-width: 30px;
+    width: 30px;
     height: auto;
     
     display: inline-block;
@@ -42,7 +43,7 @@ a{
 }
 nav{
     background-color: #101218;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 .bomb{
     padding: 10px;
@@ -52,5 +53,29 @@ nav{
 border-radius: 50%;
 background-color: #272b38;
 
-
 }
+.image2{
+    width: 253px;
+    height: auto;
+    display: block;
+    margin: -77px auto;
+}
+#search{
+    width: 591px;
+    background: #494c57;
+    height: 40px;
+    border-radius: 25px;
+}
+.searchbar{
+    width: 100vh;
+    margin: auto;
+    position: relative;
+}
+.bale{
+    position: absolute;
+}
+.fa-magnifying-glass{
+    top: 14px;
+    left: 11px;
+}
+
