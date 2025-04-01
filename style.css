@@ -10,6 +10,7 @@ body{
 .first_body{
     background-color: #101218 !important;
 padding-bottom: 173px;
+width: 100%;
     
 }
 img{
@@ -68,8 +69,9 @@ background-color: #272b38;
     border-radius: 25px;
 }
 .searchbar{
-    width: 100vh;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    
     position: relative;
 }
 .bale{
@@ -126,6 +128,7 @@ justify-content: center;
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 .nep{
     padding-bottom:20px;
@@ -137,4 +140,10 @@ hr{
 }
 .right{
     margin-left: 637px;
+}
+@media (max-width:1222px) {
+    .final{
+        flex-wrap: wrap-reverse;
+
+    }
 }
