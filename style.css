@@ -9,6 +9,7 @@ body{
 }
 .first_body{
     background-color: #101218 !important;
+padding-bottom: 173px;
     
 }
 img{
@@ -73,9 +74,67 @@ background-color: #272b38;
 }
 .bale{
     position: absolute;
+    color: #1d1f28;
 }
 .fa-magnifying-glass{
     top: 14px;
     left: 11px;
 }
-
+.fa-microphone{
+    top: 14px;
+    left: 541px;
+}
+.fa-camera-retro{
+    top: 14px;
+    left: 565px;
+}
+.buttons{
+    display: flex;
+justify-content: center;
+    margin-top: 18px;
+}
+.big{
+    margin: 0px 33px 0px 37px;
+    border-radius: 5px;
+    color: white;
+    background-color: #101218;
+    padding: 10px 24px 10px 24px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color: white;
+    margin-top: 20px;
+}
+.nepali{
+    color: aqua;
+    cursor: pointer;
+}
+.nepali:hover{
+    text-decoration: underline;
+}
+.last_body{
+   padding-bottom: 42px;
+    background-color: black;
+    color: white;
+}
+.final{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.nep{
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+hr{
+    border: none;
+    border-top: 1px solid rgb(97, 95, 95);
+}
+.right{
+    margin-left: 637px;
+}
