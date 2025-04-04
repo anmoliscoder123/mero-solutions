@@ -1,149 +1,216 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-body{
-    height: 100vh;
+
+body {
+    min-height: 100vh; /* Adjusted for content flexibility */
+    background-color: #101218; /* Sets a uniform background */
 }
-.first_body{
+
+.first_body {
     background-color: #101218 !important;
-padding-bottom: 173px;
-width: 100%;
-    
+    padding-bottom: 173px;
+    width: 100%;
 }
-img{
+
+.account {
     border-radius: 50%;
     width: 30px;
     height: auto;
-    
     display: inline-block;
     vertical-align: middle;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: right;
     align-items: center;
-    
-    
 }
-li{
+
+li {
     margin: 0px 10px 0px 10px;
     list-style: none;
     display: inline-block;
-    
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
     line-height: 3.5;
-    
 }
-.travis:hover{
+
+.travis:hover {
     text-decoration: underline;
 }
-nav{
+
+nav {
     background-color: #101218;
     padding-top: 5px;
 }
-.bomb{
+
+.bomb {
     padding: 10px;
 }
-.bomb:hover{
-    outline: 1px solid #101218 ;
-border-radius: 50%;
-background-color: #272b38;
 
+.bomb:hover {
+    outline: 1px solid #101218;
+    border-radius: 50%;
+    background-color: #272b38;
 }
-.image2{
-    width: 253px;
+
+.logo_2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image2 {
+    width: 20%;
     height: auto;
     display: block;
-    margin: -77px auto;
+    
 }
-#search{
-    width: 591px;
+
+.searchs {
+    width: 55%;
+    position: relative; /* Added for better control */
+}
+
+#search {
+    width: 100%;
     background: #494c57;
     height: 40px;
     border-radius: 25px;
+    padding-left: 15px; /* Improved text alignment */
+    color: white; /* Makes text visible */
+    border: none; /* Remove default border */
+    outline: none; /* Remove default focus outline */
+
 }
-.searchbar{
+
+.searchbar {
     display: flex;
     justify-content: center;
-    
-    position: relative;
+    width: 100%;
+    margin-top: -12vh;
 }
-.bale{
+
+.bale {
     position: absolute;
     color: #1d1f28;
 }
-.fa-magnifying-glass{
-    top: 14px;
-    left: 11px;
+
+.fa-magnifying-glass {
+    top: 35%;
+    left: 2%;
+
 }
-.fa-microphone{
-    top: 14px;
-    left: 541px;
+
+.fa-microphone {
+    top: 31%;
+    right: 2%;
+    position: absolute;
 }
-.fa-camera-retro{
-    top: 14px;
-    left: 565px;
+
+.fa-camera-retro {
+    top: 31%;
+    right: 5%;
+    position: absolute;
 }
-.buttons{
+
+.buttons {
     display: flex;
-justify-content: center;
+    justify-content: center;
     margin-top: 18px;
 }
-.big{
+
+.big {
     margin: 0px 33px 0px 37px;
     border-radius: 5px;
     color: white;
     background-color: #101218;
-    padding: 10px 24px 10px 24px;
+    padding: 10px 24px;
+    border: none; /* Removes button outline */
+    cursor: pointer; /* Indicates interactivity */
 }
-.info{
+
+.big:hover {
+    background-color: #272b38; /* Adds hover effect for buttons */
+}
+
+.info {
     display: flex;
     justify-content: center;
 }
-.text{
+
+.text {
     color: white;
     margin-top: 20px;
 }
-.nepali{
-    color: aqua;
+
+.nepali {
+    color: aqua !important;
     cursor: pointer;
 }
-.nepali:hover{
+
+.nepali:hover {
     text-decoration: underline;
 }
-.last_body{
-   padding-bottom: 42px;
+
+.last_body {
     background-color: black;
     color: white;
+    padding-bottom: 42px; /* Adjusted for spacing */
 }
-.final{
+
+.final {
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+    padding: 0 20px; /* Added padding for spacing */
 }
-.nep{
-    padding-bottom:20px;
-    padding-top: 20px;
+
+.nep {
+    padding: 20px 0;
+    text-align: center; /* Ensures centered alignment */
 }
-hr{
+
+hr {
     border: none;
     border-top: 1px solid rgb(97, 95, 95);
 }
-.right{
-    margin-left: 637px;
-}
-@media (max-width:1222px) {
-    .final{
-        flex-wrap: wrap-reverse;
 
-    }
+.right ul, .left ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Ensures space between items */
+    list-style: none;
+    padding: 0;
 }
+
+.left, .right {
+    flex: 1; /* Balances the layout */
+}
+@media (max-width: 976px) {
+    .searchbar {
+      margin-top: -5vh;
+    }
+    .fa-camera-retro{
+        right: 8%;
+        
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .searchbar {
+      margin-top: -4vh;
+    }
+    .fa-camera-retro{
+        right: 10%;
+        
+    }
+  }
+  
